@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+     width: 100%;
+     padding: 0;
+   }
+ }
+*{
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.jumbotron{
+   padding: 220px;
+   background-color: #753422;
+   text-align: center;
+   font-size: 20px;
+   color: black;
+   background-image: url('../Submission1/asset/banner.png');
+   background-size: cover;
+}
+nav{
+   background-color: #B05B3B;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav li{
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav a{
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover{
+   font-weight: bold;
+}
+li.dd{
+   display: inline-block;
+}
+li a, .dbtn{
+   display: inline-block;
+   text-align: center;
+   padding: 14px 16px;
+}
+.ddcontent{
+   display: none;
+   position: absolute;
+   background-color: #B05B3B;
+   min-width: 160px;
+   /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+   z-index: 1;
+}
+.ddcontent a{
+   display: block;
+   text-align: left;
+   padding: 12px 16px;
+   text-decoration: none;
+}
+.ddcontent a:hover{
+   background-color: #B05B3B;
+}
+.dd:hover .ddcontent{
+   display: block;
+}
+main{
+   padding: 25px;
+   overflow: auto;
+}
+
+#content{
+   float: left;
+   width: 75%;
+}
+h2 {
+   color: black;
+}
+h3 {
+   color: black;
+}
+header{
+   display: inline;
+}
+.profile header{
+   text-align: center;
+}
+table{
+    text-align: left;
+}
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.card:hover{
+    background: #D79771;
+    color: #fff;
+}
+.profile img{
+   width: 150px;
+   object-fit: cover;
+   width: 100%;
+}
+aside{
+   float: right;
+   width: 25%;
+   padding-left: 10px;
+}
+.profile section{
+    text-align: center;
+    object-fit: cover;
+}
+footer{
+   padding: 20px;
+   color: white;
+   background-color:#753422;
+   text-align: center;
+   font-weight: bold;
+} 
